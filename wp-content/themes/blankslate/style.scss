@@ -1,0 +1,16 @@
+$fonts: arial, verdana, sans-serif; 
+
+$colors: (
+	button: #0083c3,
+	text: #002854,
+);
+
+body { 
+	font-family:$fonts;
+	background-color: map-get($colors, button);
+}
+
+.category-text-left-image-right {
+	background-color: green;
+	color: white;
+}
